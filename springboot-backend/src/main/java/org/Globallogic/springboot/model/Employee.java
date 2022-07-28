@@ -7,7 +7,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
+// Before Start copying -- please check pom.xml and add required dependencies
+// also make sure to connect application.properties in ----src/main/resources
 @Entity
 @Table(name="employees")
 public class Employee {
@@ -67,7 +68,7 @@ public class Employee {
 
 	public Employee() {
 		super();
-		// TODO Auto-generated constructor stub
+	
 	}
 	
 	
